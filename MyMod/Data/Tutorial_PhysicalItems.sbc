@@ -4,9 +4,9 @@
 	<PhysicalItem>
 	 <Id>
         <TypeId>Ore</TypeId>
-        <SubtypeId>ThoriteOre</SubtypeId>
+        <SubtypeId>Thorite</SubtypeId>
       </Id>
-      <DisplayName>Thorite Ore [TR]</DisplayName>
+      <DisplayName>Thorite Ore</DisplayName>
       <Icon>Textures\GUI\Icons\Ore\Thorite_ore.dds</Icon>
       <Size>
         <X>0.07</X>
@@ -16,7 +16,7 @@
       <Mass>0.8</Mass>
       <Volume>1.8</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
-      <IconSymbol>TR</IconSymbol>
+      <IconSymbol>Tr</IconSymbol>
     </PhysicalItem>
  <PhysicalItem>
       <Id>
@@ -34,7 +34,7 @@
       <Volume>1.8</Volume>
       <Model>Models\Ingots\iron_ingot.mwm</Model> 
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <IconSymbol>TR</IconSymbol>
+      <IconSymbol>Tr</IconSymbol>
     </PhysicalItem>
   </PhysicalItems>
 </Definitions>

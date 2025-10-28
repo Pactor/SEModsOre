@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ThoriteToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Thorite Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\Thorite_ingot.dds</Icon> 
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="ThoriteOre" />
+      </Prerequisites>
+      <Result Amount="0.5" TypeId="Ingot" SubtypeId="ThoriteIngot" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>

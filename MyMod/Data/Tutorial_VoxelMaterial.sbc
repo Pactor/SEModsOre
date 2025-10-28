@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VoxelMaterials>
+<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>Thorite</SubtypeId>
+      </Id>
+      <SpawnsInAsteroids>true</SpawnsInAsteroids>
+	  <SpawnsInPlanets>true</SpawnsInPlanets>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+      <MaterialTypeName>Thorite</MaterialTypeName>
+      <MinedOre>Thorite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+	  <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
+      <IsIndestructible>false</IsIndestructible>
+      <DamageRatio>0.2</DamageRatio>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+			<VoxelHandPreview>Textures\Voxels\Thorite_thumbnail.dds</VoxelHandPreview>		
+			<ColorMetalXZnY>Textures\Voxels\Thorite_AxisXZ_cm.dds</ColorMetalXZnY>		
+			<ColorMetalY>Textures\Voxels\Thorite_AxisY_cm.dds</ColorMetalY>
+			<ExtXZnY>Textures\Voxels\Thorite_AxisXZ_add.dds</ExtXZnY>
+			<NormalGlossXZnY>Textures\Voxels\Thorite_AxisXZ_ng.dds</NormalGlossXZnY>
+			<NormalGlossY>Textures\Voxels\Thorite_AxisXZ_ng.dds</NormalGlossY>			
+			<ColorMetalXZnYFar1>Textures\Voxels\Thorite_AxisXZ_distance_cm.dds</ColorMetalXZnYFar1>
+			<ExtXZnYFar1>Textures\Voxels\Thorite_AxisXZ_add.dds</ExtXZnYFar1>
+			<NormalGlossXZnYFar1>Textures\Voxels\Thorite_AxisXZ_ng.dds</NormalGlossXZnYFar1>
+      <Friction>1</Friction>
+      <Restitution>1</Restitution>
+    </VoxelMaterial>
+  </VoxelMaterials>
+</Definitions>
